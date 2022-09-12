@@ -66,15 +66,21 @@
                         <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Dropdown
                         </a>
-                        <ul class="dropdown-menu">
+                        <ul id="dropdown1" class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li class="dropdown">
+                            <li class="dropend">
                                 <a class="dropdown-item dropdown dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Another action</a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="#" class="dropdown-item"> Action 2</a>
-                                    </li>
+                                <ul id="dropdown2" class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item"> Action 2</a></li>
                                     <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li class="dropstart">
+                                        <a class="dropdown-item dropdown dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Something else here</a>
+                                        <ul id="dropdown3" class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
                                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
